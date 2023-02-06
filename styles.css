@@ -1,0 +1,109 @@
+.logo{
+    border-radius:8px;
+    background-color:#001b94;
+    text-align: center;
+}
+nav {
+    border-radius:8px;
+    border-top:2px solid yellow;
+    border-bottom: 2px solid yellow;
+    height:50px;
+    background-color: rgb(0, 27, 148);
+    padding-bottom:25px;
+    border-collapse: collapse;
+}
+nav a{
+    text-decoration:none;
+    font-weight:bold;
+    font-size:20px;
+    float:right;
+    margin:10px 20px;
+    padding:10px;
+    color:white;
+}
+nav  a:active{
+    text-decoration: none;
+    color:white;
+    background-color:rgb(7, 22, 154);
+}
+nav a:visited{
+    color:white;
+    background-color:rgb(7, 22, 154);
+    text-decoration:none;
+}
+nav a:hover{
+    color:white;
+    background-color:rgb(0, 27, 160);
+    border:1px solid white;
+}
+body{
+    background-color:yellow;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+section img{
+    border-radius:10px;
+    margin-top:3px;
+    border-top:1px solid yellow;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    height:100%;
+}
+.sec2{
+    padding:10px;
+    border:1px solid rgb(234, 65, 65);
+    border-radius:10px;
+    margin-top:10px;
+    width:100%;
+    background-color:rgb(235, 30, 30);
+    color:white;
+    text-align:center;
+}
+.sec2 img{
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    height:auto;
+    border: 3px groove yellow;
+    padding:0;
+}
+ul{
+    list-style-type:square;
+}
+span{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom:20px;
+      }
+h3{
+    font-size:25px;
+}
+li{
+    font-size:19px;
+    margin:15px;
+}
+footer{
+    text-align:center;
+    color:black;
+    font-size:20px;
+}
+*{
+    max-width:100%;
+}
+.bmark, 
+.bmark:active,
+.bmark:hover,
+.bmark:active{
+    color:white;
+    text-decoration: none;
+}
+.bmark:hover{
+    background-color:rgb(220, 8, 8);
+    border:1px solid white;
+}
